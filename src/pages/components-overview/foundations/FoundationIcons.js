@@ -43,7 +43,7 @@ const style = {
 
 export default function FoundationIcons() {
   return (
-    <RootStyle title="Foundations: Icons | Asfiya_Art_Shop">
+    <RootStyle title="Foundations: Icons | Animatrix Store">
       <Box
         sx={{
           pt: 6,

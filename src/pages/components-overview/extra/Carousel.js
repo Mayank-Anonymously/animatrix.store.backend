@@ -32,7 +32,7 @@ const RootStyle = styled(Page)(({ theme }) => ({
 
 export default function Carousel() {
   return (
-    <RootStyle title="Components: Carousel | Asfiya_Art_Shop">
+    <RootStyle title="Components: Carousel | Animatrix Store">
       <Box
         sx={{
           pt: 6,

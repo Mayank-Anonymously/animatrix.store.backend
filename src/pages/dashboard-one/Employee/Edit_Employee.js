@@ -12,7 +12,7 @@ export default function Edit_Employee() {
   const location = useLocation();
   const { data } = location.state;
   return (
-    <Page title="Edit Employee | Asfiya_Art_Shop">
+    <Page title="Edit Employee | Animatrix Store">
       <Container maxWidth={themeStretch ? false : "xxl"}>
         <HeaderBreadcrumbs
           heading={`Edit ${data ? data.name : "Employee"}`}

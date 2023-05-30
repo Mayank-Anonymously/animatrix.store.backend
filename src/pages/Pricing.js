@@ -71,7 +71,7 @@ const RootStyle = styled(Page)(({ theme }) => ({
 
 export default function Pricing() {
   return (
-    <RootStyle title="Pricing | Asfiya_Art_Shop">
+    <RootStyle title="Pricing | Animatrix Store">
       <Container maxWidth="lg">
         <Typography variant="h3" align="center" paragraph>
           Flexible plans for your

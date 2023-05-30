@@ -72,7 +72,7 @@ export default function FoundationShadows() {
   ];
 
   return (
-    <RootStyle title="Foundations: Shadows | Asfiya_Art_Shop">
+    <RootStyle title="Foundations: Shadows | Animatrix Store">
       <Box
         sx={{
           pt: 6,

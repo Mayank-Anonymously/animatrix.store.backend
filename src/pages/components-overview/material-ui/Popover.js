@@ -53,7 +53,7 @@ export default function PopoversComponent() {
   };
 
   return (
-    <RootStyle title="Components: Popover | Asfiya_Art_Shop">
+    <RootStyle title="Components: Popover | Animatrix Store">
       <Box
         sx={{
           pt: 6,

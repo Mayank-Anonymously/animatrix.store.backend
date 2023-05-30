@@ -24,7 +24,7 @@ const RootStyle = styled(Page)(({ theme }) => ({
 
 export default function About() {
   return (
-    <RootStyle title="About us | Asfiya_Art_Shop">
+    <RootStyle title="About us | Animatrix Store">
       <AboutHero />
       <AboutWhat />
       <AboutVision />

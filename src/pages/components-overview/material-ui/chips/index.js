@@ -26,7 +26,7 @@ const RootStyle = styled(Page)(({ theme }) => ({
 
 export default function ChipsComponent() {
   return (
-    <RootStyle title="Components: Chip | Asfiya_Art_Shop">
+    <RootStyle title="Components: Chip | Animatrix Store">
       <Box
         sx={{
           pt: 6,

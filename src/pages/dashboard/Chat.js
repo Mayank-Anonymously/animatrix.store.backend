@@ -25,7 +25,7 @@ export default function Chat() {
   }, [dispatch]);
 
   return (
-    <Page title="Chat | Asfiya_Art_Shop">
+    <Page title="Chat | Animatrix Store">
       <Container maxWidth={themeStretch ? false : "xl"}>
         <HeaderBreadcrumbs
           heading="Chat"

@@ -45,7 +45,7 @@ export default function AccordionComponent() {
   };
 
   return (
-    <RootStyle title="Components: Accordion | Asfiya_Art_Shop">
+    <RootStyle title="Components: Accordion | Animatrix Store">
       <Box
         sx={{
           pt: 6,

@@ -53,7 +53,7 @@ export default function RadioButtons() {
   };
 
   return (
-    <RootStyle title="Components: Checkboxes | Asfiya_Art_Shop">
+    <RootStyle title="Components: Checkboxes | Animatrix Store">
       <Box
         sx={{
           pt: 6,

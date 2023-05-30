@@ -39,7 +39,7 @@ export default function GeneralApp() {
   }, []);
 
   return (
-    <Page title="Game Rooms | Asfiya_Art_Shop">
+    <Page title="Game Rooms | Animatrix Store">
       <Container maxWidth={themeStretch ? "xxl" : "xxl"}>
         <Grid container spacing={1}>
           <Grid item xs={12} md={12} lg={12}>

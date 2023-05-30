@@ -90,7 +90,7 @@ export default function RatingComponent() {
   const [hover, setHover] = useState(-1);
 
   return (
-    <RootStyle title="Components: Rating | Asfiya_Art_Shop">
+    <RootStyle title="Components: Rating | Animatrix Store">
       <Box
         sx={{
           pt: 6,

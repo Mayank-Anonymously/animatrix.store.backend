@@ -100,7 +100,7 @@ function GetFontInfo({ name }) {
 
 export default function FoundationTypography() {
   return (
-    <RootStyle title="Foundations: Typography | Asfiya_Art_Shop">
+    <RootStyle title="Foundations: Typography | Animatrix Store">
       <Box
         sx={{
           pt: 6,

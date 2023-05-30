@@ -50,7 +50,7 @@ const sidebarConfig = [
   },
   // MANAGEMENT : E-COMMERCE
   // MANAGEMENT
-  // ----------------------------------------------------------------------
+  // --------------------------------index--------------------------------------
   {
     subheader: "Product-Management",
     items: [

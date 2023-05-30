@@ -30,7 +30,7 @@ const ContentStyle = styled("div")(({ theme }) => ({
 export default function LandingPage() {
   return (
     <RootStyle
-      title="The starting point for your next project | Asfiya_Art_Shop"
+      title="The starting point for your next project | Animatrix Store"
       id="move_top"
     >
       <LandingHero />

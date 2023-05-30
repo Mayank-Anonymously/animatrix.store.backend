@@ -44,7 +44,7 @@ export default function MultiLanguage() {
   };
 
   return (
-    <RootStyle title="Components: Multi Language | Asfiya_Art_Shop">
+    <RootStyle title="Components: Multi Language | Animatrix Store">
       <Box
         sx={{
           pt: 6,

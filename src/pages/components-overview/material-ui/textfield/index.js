@@ -38,7 +38,7 @@ export default function TextFieldComponent() {
   // ----------------------------------------------------------------------
 
   return (
-    <RootStyle title="Components: TextField | Asfiya_Art_Shop">
+    <RootStyle title="Components: TextField | Animatrix Store">
       <Box
         sx={{
           pt: 6,

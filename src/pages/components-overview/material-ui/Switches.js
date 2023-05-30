@@ -36,7 +36,7 @@ const RootStyle = styled(Page)(({ theme }) => ({
 
 export default function Switches() {
   return (
-    <RootStyle title="Components: Switches | Asfiya_Art_Shop">
+    <RootStyle title="Components: Switches | Animatrix Store">
       <Box
         sx={{
           pt: 6,

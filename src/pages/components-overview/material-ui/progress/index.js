@@ -68,7 +68,7 @@ export default function ProgressComponent() {
   }, []);
 
   return (
-    <RootStyle title="Components: Progress | Asfiya_Art_Shop">
+    <RootStyle title="Components: Progress | Animatrix Store">
       <Box
         sx={{
           pt: 6,

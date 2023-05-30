@@ -29,7 +29,7 @@ const RootStyle = styled(Page)(({ theme }) => ({
 
 export default function LabelsComponent() {
   return (
-    <RootStyle title="Components: Label | Asfiya_Art_Shop">
+    <RootStyle title="Components: Label | Animatrix Store">
       <Box
         sx={{
           pt: 6,

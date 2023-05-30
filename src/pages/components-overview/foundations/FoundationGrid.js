@@ -53,7 +53,7 @@ export default function FoundationGrid() {
   };
 
   return (
-    <RootStyle title="Foundations: Grid | Asfiya_Art_Shop">
+    <RootStyle title="Foundations: Grid | Animatrix Store">
       <Box
         sx={{
           pt: 6,

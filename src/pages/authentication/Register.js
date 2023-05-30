@@ -55,7 +55,7 @@ export default function Register() {
   const { method } = useAuth();
 
   return (
-    <RootStyle title="Register | Asfiya_Art_Shop">
+    <RootStyle title="Register | Animatrix Store">
       <AuthLayout>
         Already have an account? &nbsp;
         <Link
@@ -109,7 +109,7 @@ export default function Register() {
             align="center"
             sx={{ color: "text.secondary", mt: 3 }}
           >
-            By registering, I agree to Asfiya_Art_Shop&nbsp;
+            By registering, I agree to Animatrix Store&nbsp;
             <Link underline="always" color="text.primary" href="#">
               Terms of Service
             </Link>

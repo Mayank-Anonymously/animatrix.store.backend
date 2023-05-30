@@ -130,7 +130,7 @@ export default function FoundationColors() {
   };
 
   return (
-    <RootStyle title="Foundations: Color | Asfiya_Art_Shop">
+    <RootStyle title="Foundations: Color | Animatrix Store">
       <Box
         sx={{
           pt: 6,

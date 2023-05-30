@@ -33,7 +33,7 @@ export default function Mail() {
   }, [dispatch]);
 
   return (
-    <Page title="Mail | Asfiya_Art_Shop">
+    <Page title="Mail | Animatrix Store">
       <Container maxWidth={themeStretch ? false : "xl"}>
         <HeaderBreadcrumbs
           heading="Mail"

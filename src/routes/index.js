@@ -90,6 +90,7 @@ export default function Router() {
         { path: "add-product", element: <CreateProduct /> },
         { path: "view-category", element: <View_Category /> },
         { path: "view-product", element: <View_Product /> },
+         { path: "view-orders", element: <View_Order /> },
 
         { path: "transaction", element: <View_Transaction /> },
 
@@ -340,6 +341,9 @@ const View_Category = Loadable(
 );
 const View_Product = Loadable(
   lazy(() => import("../pages/dashboard-one/Product/ViewProduct"))
+);
+const View_Order = Loadable(
+  lazy(() => import("../pages/dashboard-one/Orders/ViewAllOrders"))
 );
 const View_Transaction = Loadable(
   lazy(() => import("../pages/dashboard-one/SidebarPages/TransactionHistory"))

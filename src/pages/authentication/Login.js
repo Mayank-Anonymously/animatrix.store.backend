@@ -66,7 +66,7 @@ export default function Login() {
   };
 
   return (
-    <RootStyle title="Login | Asfiya_Art_Shop ">
+    <RootStyle title="Login | Animatrix Store ">
       <AuthLayout>
         New User Sign Up ? &nbsp;
         <Link
@@ -82,7 +82,7 @@ export default function Login() {
       <MHidden width="mdDown">
         <SectionStyle>
           <Typography variant="h4" sx={{ px: 5, mt: 0, mb: 0 }}>
-            Asfiya_Art_Shop
+            Animatrix Store
           </Typography>
 
           <img src="/static/illustrations/illustration_login.png" alt="login" />
@@ -98,7 +98,7 @@ export default function Login() {
                 style={{ fontSize: 16 }}
                 gutterBottom
               >
-                Sign in to your Asfiya_Art_Shop account
+                Sign in to your Animatrix Store account
               </Typography>
               <Typography sx={{ color: "text.secondary", fontSize: 12 }}>
                 Enter your account details below.

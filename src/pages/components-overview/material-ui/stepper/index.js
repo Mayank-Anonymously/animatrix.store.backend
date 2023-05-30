@@ -24,7 +24,7 @@ const RootStyle = styled(Page)(({ theme }) => ({
 
 export default function StepperComponent() {
   return (
-    <RootStyle title="Components: StepperView | Asfiya_Art_Shop">
+    <RootStyle title="Components: StepperView | Animatrix Store">
       <Box
         sx={{
           pt: 6,

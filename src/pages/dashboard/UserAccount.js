@@ -80,7 +80,7 @@ export default function UserAccount() {
   };
 
   return (
-    <Page title="User: Account Settings | Asfiya_Art_Shop">
+    <Page title="User: Account Settings | Animatrix Store">
       <Container maxWidth={themeStretch ? false : "lg"}>
         <HeaderBreadcrumbs
           heading="Account"

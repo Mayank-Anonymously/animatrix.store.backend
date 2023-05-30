@@ -159,7 +159,7 @@ export default function View_Transaction() {
   const isUserNotFound = filteredUsers.length === 0;
 
   return (
-    <Page title="Transaction List | Asfiya_Art_Shop">
+    <Page title="Transaction List | Animatrix Store">
       <Container maxWidth={themeStretch ? "xxl" : "xxl"}>
         <HeaderBreadcrumbs
           heading="Transaction List"

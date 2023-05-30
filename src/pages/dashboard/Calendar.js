@@ -169,7 +169,7 @@ export default function Calendar() {
   };
 
   return (
-    <Page title="Calendar | Asfiya_Art_Shop">
+    <Page title="Calendar | Animatrix Store">
       <Container maxWidth={themeStretch ? false : "xl"}>
         <HeaderBreadcrumbs
           heading="Calendar"

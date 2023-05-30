@@ -116,7 +116,7 @@ export default function Payment() {
   });
 
   return (
-    <RootStyle title="Payment | Asfiya_Art_Shop">
+    <RootStyle title="Payment | Animatrix Store">
       <Container maxWidth="lg">
         <Box sx={{ mb: 5 }}>
           <Typography variant="h3" align="center" paragraph>

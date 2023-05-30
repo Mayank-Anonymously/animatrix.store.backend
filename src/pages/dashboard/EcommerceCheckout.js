@@ -113,7 +113,7 @@ export default function EcommerceCheckout() {
   }, [dispatch, activeStep]);
 
   return (
-    <Page title="Ecommerce: Checkout | Asfiya_Art_Shop">
+    <Page title="Ecommerce: Checkout | Animatrix Store">
       <Container maxWidth={themeStretch ? false : "lg"}>
         <HeaderBreadcrumbs
           heading="Checkout"

@@ -27,7 +27,7 @@ const RootStyle = styled(Page)(({ theme }) => ({
 
 export default function AlertsComponent() {
   return (
-    <RootStyle title="Components: Alert | Asfiya_Art_Shop">
+    <RootStyle title="Components: Alert | Animatrix Store">
       <Box
         sx={{
           pt: 6,

@@ -33,7 +33,7 @@ export default function AvatarComponent() {
   const theme = useTheme();
 
   return (
-    <RootStyle title="Components: Avatar | Asfiya_Art_Shop">
+    <RootStyle title="Components: Avatar | Animatrix Store">
       <Box
         sx={{
           pt: 6,

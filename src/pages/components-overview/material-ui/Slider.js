@@ -73,7 +73,7 @@ export default function SliderComponent() {
   };
 
   return (
-    <RootStyle title="Components: Slider | Asfiya_Art_Shop">
+    <RootStyle title="Components: Slider | Animatrix Store">
       <Box
         sx={{
           pt: 6,

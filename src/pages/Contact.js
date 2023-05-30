@@ -22,7 +22,7 @@ const RootStyle = styled(Page)(({ theme }) => ({
 
 export default function Contact() {
   return (
-    <RootStyle title="Contact us | Asfiya_Art_Shop">
+    <RootStyle title="Contact us | Animatrix Store">
       <ContactHero />
 
       <Container sx={{ my: 10 }}>

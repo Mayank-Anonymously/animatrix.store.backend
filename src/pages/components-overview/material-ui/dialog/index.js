@@ -34,7 +34,7 @@ const RootStyle = styled(Page)(({ theme }) => ({
 
 export default function DialogComponent() {
   return (
-    <RootStyle title="Components: Dialog | Asfiya_Art_Shop">
+    <RootStyle title="Components: Dialog | Animatrix Store">
       <Box
         sx={{
           pt: 6,

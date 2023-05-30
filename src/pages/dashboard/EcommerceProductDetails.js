@@ -106,7 +106,7 @@ export default function EcommerceProductDetails() {
   };
 
   return (
-    <Page title="Ecommerce: Product Details | Asfiya_Art_Shop">
+    <Page title="Ecommerce: Product Details | Animatrix Store">
       <Container maxWidth={themeStretch ? false : "lg"}>
         <HeaderBreadcrumbs
           heading="Product Details"

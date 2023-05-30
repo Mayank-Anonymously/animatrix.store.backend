@@ -29,7 +29,7 @@ const RootStyle = styled(Page)(({ theme }) => ({
 
 export default function TransferListComponent() {
   return (
-    <RootStyle title="Components: Transfer List | Asfiya_Art_Shop">
+    <RootStyle title="Components: Transfer List | Animatrix Store">
       <Box
         sx={{
           pt: 6,

@@ -17,7 +17,7 @@ const RootStyle = styled(Page)(({ theme }) => ({
 
 export default function CopyToClipboard() {
   return (
-    <RootStyle title="Components: Copy To Clipboard | Asfiya_Art_Shop">
+    <RootStyle title="Components: Copy To Clipboard | Animatrix Store">
       <Box
         sx={{
           pt: 6,

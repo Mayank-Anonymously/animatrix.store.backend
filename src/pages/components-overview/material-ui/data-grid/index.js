@@ -21,7 +21,7 @@ const RootStyle = styled(Page)(({ theme }) => ({
 
 export default function DataGridComponent() {
   return (
-    <RootStyle title="Components: DataGrid | Asfiya_Art_Shop">
+    <RootStyle title="Components: DataGrid | Animatrix Store">
       <Box
         sx={{
           pt: 6,

@@ -60,7 +60,7 @@ export default function TabsComponent() {
   };
 
   return (
-    <RootStyle title="Components: Tabs | Asfiya_Art_Shop">
+    <RootStyle title="Components: Tabs | Animatrix Store">
       <Box
         sx={{
           pt: 6,

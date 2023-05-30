@@ -170,7 +170,7 @@ export default function View_user() {
   const isUserNotFound = filteredUsers.length === 0;
 
   return (
-    <Page title="User: List | Asfiya_Art_Shop">
+    <Page title="User: List | Animatrix Store">
       <Container maxWidth={themeStretch ? false : "lg"}>
         <HeaderBreadcrumbs
           heading="User List"

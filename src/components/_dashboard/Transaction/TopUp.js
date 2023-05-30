@@ -160,7 +160,7 @@ export default function Payment() {
   };
   // console.log("userId:::", userId);
   return (
-    <RootStyle title="Wallet Topup | Asfiya_Art_Shop">
+    <RootStyle title="Wallet Topup | Animatrix Store">
       <Container maxWidth="lg">
         <Box sx={{ mb: 5 }}>
           <Typography variant="h3" align="center" paragraph>

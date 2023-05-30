@@ -43,7 +43,7 @@ export default function RadioButtons() {
   };
 
   return (
-    <RootStyle title="Components: Radio Buttons | Asfiya_Art_Shop">
+    <RootStyle title="Components: Radio Buttons | Animatrix Store">
       <Box
         sx={{
           pt: 6,

@@ -47,7 +47,7 @@ export default function PaginationComponent() {
   };
 
   return (
-    <RootStyle title="Components: Pagination | Asfiya_Art_Shop">
+    <RootStyle title="Components: Pagination | Animatrix Store">
       <Box
         sx={{
           pt: 6,

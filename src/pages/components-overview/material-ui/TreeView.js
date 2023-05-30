@@ -69,7 +69,7 @@ const StyledTreeItem = withStyles((theme) =>
 
 export default function TreesViewComponent() {
   return (
-    <RootStyle title="Components: Tree View | Asfiya_Art_Shop">
+    <RootStyle title="Components: Tree View | Animatrix Store">
       <Box
         sx={{
           pt: 6,

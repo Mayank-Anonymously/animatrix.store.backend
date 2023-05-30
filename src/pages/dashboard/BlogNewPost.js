@@ -15,7 +15,7 @@ export default function BlogNewPost() {
   const { themeStretch } = useSettings();
 
   return (
-    <Page title="Blog: New Post | Asfiya_Art_Shop">
+    <Page title="Blog: New Post | Animatrix Store">
       <Container maxWidth={themeStretch ? false : "lg"}>
         <HeaderBreadcrumbs
           heading="Create a new post"

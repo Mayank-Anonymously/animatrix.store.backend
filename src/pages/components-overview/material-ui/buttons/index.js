@@ -44,7 +44,7 @@ export default function ButtonsComponent() {
   };
 
   return (
-    <RootStyle title="Components: Buttons | Asfiya_Art_Shop">
+    <RootStyle title="Components: Buttons | Animatrix Store">
       <Box
         sx={{
           pt: 6,

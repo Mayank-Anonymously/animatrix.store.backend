@@ -23,7 +23,7 @@ export default function View_Games() {
   const { time } = location.state;
 
   return (
-    <Page title="View Games | Asfiya_Art_Shop">
+    <Page title="View Games | Animatrix Store">
       <Container maxWidth={themeStretch ? "xxl" : "xxl"}>
         {time == "open" ? (
           <Grid container spacing={1}>

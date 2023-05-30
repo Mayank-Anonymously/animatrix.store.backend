@@ -98,7 +98,7 @@ export default function ListsComponent() {
   };
 
   return (
-    <RootStyle title="Components: Lists | Asfiya_Art_Shop">
+    <RootStyle title="Components: Lists | Animatrix Store">
       <Box
         sx={{
           pt: 6,

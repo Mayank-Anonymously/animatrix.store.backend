@@ -37,7 +37,7 @@ const RootStyle = styled(Page)(({ theme }) => ({
 
 export default function Charts() {
   return (
-    <RootStyle title="Components: Charts | Asfiya_Art_Shop">
+    <RootStyle title="Components: Charts | Animatrix Store">
       <Box
         sx={{
           pt: 6,

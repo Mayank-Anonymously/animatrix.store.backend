@@ -87,7 +87,7 @@ export default function BlogPosts() {
   };
 
   return (
-    <Page title="Blog: Posts | Asfiya_Art_Shop">
+    <Page title="Blog: Posts | Animatrix Store">
       <Container maxWidth={themeStretch ? false : "lg"}>
         <HeaderBreadcrumbs
           heading="Blog"

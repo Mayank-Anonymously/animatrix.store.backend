@@ -70,7 +70,7 @@ export default function ComingSoon() {
   const countdown = useCountdown(new Date("07/07/2022 21:30"));
 
   return (
-    <RootStyle title="Coming Soon | Asfiya_Art_Shop">
+    <RootStyle title="Coming Soon | Animatrix Store">
       <Container>
         <Box sx={{ maxWidth: 480, margin: "auto", textAlign: "center" }}>
           <Typography variant="h3" paragraph>

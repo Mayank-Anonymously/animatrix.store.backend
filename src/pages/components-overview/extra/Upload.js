@@ -81,7 +81,7 @@ export default function Upload() {
   };
 
   return (
-    <RootStyle title="Components: Upload | Asfiya_Art_Shop">
+    <RootStyle title="Components: Upload | Animatrix Store">
       <Box
         sx={{
           pt: 6,

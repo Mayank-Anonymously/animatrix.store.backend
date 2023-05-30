@@ -38,7 +38,7 @@ export default function PickersComponent() {
   };
 
   return (
-    <RootStyle title="Components: Pickers | Asfiya_Art_Shop">
+    <RootStyle title="Components: Pickers | Animatrix Store">
       <Box
         sx={{
           pt: 6,

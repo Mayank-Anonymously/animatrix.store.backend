@@ -172,7 +172,7 @@ export default function EcommerceCategoryList() {
   const isProductNotFound = filteredcategory.length === 0;
 
   return (
-    <Page title="Ecommerce: Category List | Asfiya_Art_Shop">
+    <Page title="Ecommerce: Category List | Animatrix Store">
       <Container maxWidth={themeStretch ? false : "xxxl"}>
         <HeaderBreadcrumbs
           heading="Category List"

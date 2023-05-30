@@ -24,7 +24,7 @@ const RootStyle = styled(Page)(({ theme }) => ({
 
 export default function ComponentsOverview() {
   return (
-    <RootStyle title="Components Overview | Asfiya_Art_Shop">
+    <RootStyle title="Components Overview | Animatrix Store">
       <ComponentHero />
       <Container maxWidth="lg">
         <ComponentFoundation />

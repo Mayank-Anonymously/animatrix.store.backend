@@ -92,7 +92,7 @@ export default function SnackbarComponent() {
   };
 
   return (
-    <RootStyle title="Components: Snackbar | Asfiya_Art_Shop">
+    <RootStyle title="Components: Snackbar | Animatrix Store">
       <Box
         sx={{
           pt: 6,

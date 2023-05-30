@@ -21,7 +21,7 @@ const RootStyle = styled(Page)(({ theme }) => ({
 
 export default function BadgeComponent() {
   return (
-    <RootStyle title="Components: Badge | Asfiya_Art_Shop">
+    <RootStyle title="Components: Badge | Animatrix Store">
       <Box
         sx={{
           pt: 6,

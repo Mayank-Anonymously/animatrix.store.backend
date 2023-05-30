@@ -13,7 +13,7 @@ export default function Edit_user() {
   const { data } = location.state;
 
   return (
-    <Page title="Edit User | Asfiya_Art_Shop">
+    <Page title="Edit User | Animatrix Store">
       <Container maxWidth={themeStretch ? false : "xxl"}>
         <HeaderBreadcrumbs
           heading={`Edit ${data.name} details`}

@@ -29,7 +29,7 @@ const RootStyle = styled(Page)(({ theme }) => ({
 
 export default function BreadcrumbComponent() {
   return (
-    <RootStyle title="Components: Breadcrumbs | Asfiya_Art_Shop">
+    <RootStyle title="Components: Breadcrumbs | Animatrix Store">
       <Box
         sx={{
           pt: 6,

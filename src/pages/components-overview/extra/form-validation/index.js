@@ -104,7 +104,7 @@ export default function FormValidation() {
   };
 
   return (
-    <RootStyle title="Form Validation | Asfiya_Art_Shop">
+    <RootStyle title="Form Validation | Animatrix Store">
       <Box
         sx={{
           pt: 6,

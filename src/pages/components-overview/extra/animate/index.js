@@ -40,7 +40,7 @@ export default function Animate() {
   };
 
   return (
-    <RootStyle title="Components: Animate | Asfiya_Art_Shop">
+    <RootStyle title="Components: Animate | Animatrix Store">
       <Box
         sx={{
           pt: 6,

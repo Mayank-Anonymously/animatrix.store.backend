@@ -115,7 +115,7 @@ const SkeletonLoad = (
 
 export default function Map() {
   return (
-    <RootStyle title="Components: Map | Asfiya_Art_Shop">
+    <RootStyle title="Components: Map | Animatrix Store">
       <Box
         sx={{
           pt: 6,

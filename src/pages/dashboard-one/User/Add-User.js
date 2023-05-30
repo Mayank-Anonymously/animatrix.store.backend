@@ -9,7 +9,7 @@ import { PATH_DASHBOARD } from "src/routes/paths";
 export default function Add_user() {
   const { themeStretch } = useSettings();
   return (
-    <Page title="Add User | Asfiya_Art_Shop">
+    <Page title="Add User | Animatrix Store">
       <Container maxWidth={themeStretch ? false : "xxl"}>
         <HeaderBreadcrumbs
           heading="Create New User"

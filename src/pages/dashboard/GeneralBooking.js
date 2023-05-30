@@ -24,7 +24,7 @@ export default function GeneralBooking() {
   const { themeStretch } = useSettings();
 
   return (
-    <Page title="General: Banking | Asfiya_Art_Shop">
+    <Page title="General: Banking | Animatrix Store">
       <Container maxWidth={themeStretch ? false : "xl"}>
         <Grid container spacing={3}>
           <Grid item xs={12} md={4}>

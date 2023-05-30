@@ -123,7 +123,7 @@ export default function UserProfile() {
   ];
 
   return (
-    <Page title="User: Profile | Asfiya_Art_Shop">
+    <Page title="User: Profile | Animatrix Store">
       <Container maxWidth={themeStretch ? false : "lg"}>
         <HeaderBreadcrumbs
           heading="Profile"

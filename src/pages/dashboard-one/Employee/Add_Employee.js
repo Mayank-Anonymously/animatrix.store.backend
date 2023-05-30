@@ -9,7 +9,7 @@ import { PATH_DASHBOARD } from "src/routes/paths";
 export default function Add_Employee() {
   const { themeStretch } = useSettings();
   return (
-    <Page title="Add Employee | Asfiya_Art_Shop">
+    <Page title="Add Employee | Animatrix Store">
       <Container maxWidth={themeStretch ? false : "xxl"}>
         <HeaderBreadcrumbs
           heading="Create New Employee"

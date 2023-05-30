@@ -21,7 +21,7 @@ const RootStyle = styled(Page)(({ theme }) => ({
 
 export default function TableComponent() {
   return (
-    <RootStyle title="Components: Table | Asfiya_Art_Shop">
+    <RootStyle title="Components: Table | Animatrix Store">
       <Box
         sx={{
           pt: 6,

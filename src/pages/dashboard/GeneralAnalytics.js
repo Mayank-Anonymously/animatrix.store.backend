@@ -25,7 +25,7 @@ export default function GeneralAnalytics() {
   const { themeStretch } = useSettings();
 
   return (
-    <Page title="General: Analytics | Asfiya_Art_Shop">
+    <Page title="General: Analytics | Animatrix Store">
       <Container maxWidth={themeStretch ? false : "xl"}>
         <Box sx={{ pb: 5 }}>
           <Typography variant="h4">Hi, Welcome back</Typography>

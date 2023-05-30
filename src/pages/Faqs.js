@@ -23,7 +23,7 @@ const RootStyle = styled(Page)(({ theme }) => ({
 
 export default function Faqs() {
   return (
-    <RootStyle title="Faqs | Asfiya_Art_Shop">
+    <RootStyle title="Faqs | Animatrix Store">
       <FaqsHero />
 
       <Container sx={{ mt: 15, mb: 10 }}>

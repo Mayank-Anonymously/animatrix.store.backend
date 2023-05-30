@@ -33,7 +33,7 @@ export default function EcommerceProductCreate() {
   }, [dispatch]);
 
   return (
-    <Page title="Ecommerce: Create a new product | Asfiya_Art_Shop">
+    <Page title="Ecommerce: Create a new product | Animatrix Store">
       <Container maxWidth={themeStretch ? false : "lg"}>
         <HeaderBreadcrumbs
           heading={!isEdit ? "Create a new product" : "Edit product"}

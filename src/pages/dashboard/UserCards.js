@@ -39,7 +39,7 @@ export default function UserCards() {
   }, [dispatch]);
 
   return (
-    <Page title="User: Cards | Asfiya_Art_Shop">
+    <Page title="User: Cards | Animatrix Store">
       <Container maxWidth={themeStretch ? false : "lg"}>
         <HeaderBreadcrumbs
           heading="User Cards"

@@ -31,7 +31,7 @@ export default function UserCreate() {
   }, [dispatch]);
 
   return (
-    <Page title="User: Create a new user | Asfiya_Art_Shop">
+    <Page title="User: Create a new user | Animatrix Store">
       <Container maxWidth={themeStretch ? false : "lg"}>
         <HeaderBreadcrumbs
           heading={!isEdit ? "Create a new user" : "Edit user"}

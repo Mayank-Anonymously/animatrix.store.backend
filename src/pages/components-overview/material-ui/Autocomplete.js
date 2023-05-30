@@ -42,7 +42,7 @@ export default function AutocompleteComponent() {
   const [inputValue, setInputValue] = useState("");
 
   return (
-    <RootStyle title="Components: Autocomplete | Asfiya_Art_Shop">
+    <RootStyle title="Components: Autocomplete | Animatrix Store">
       <Box
         sx={{
           pt: 6,

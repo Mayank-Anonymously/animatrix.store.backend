@@ -93,7 +93,7 @@ export default function MenusComponent() {
   };
 
   return (
-    <RootStyle title="Components: Menus | Asfiya_Art_Shop">
+    <RootStyle title="Components: Menus | Animatrix Store">
       <Box
         sx={{
           pt: 6,

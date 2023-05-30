@@ -46,7 +46,7 @@ const style = {
 
 export default function TooltipsComponent() {
   return (
-    <RootStyle title="Components: Tooltip | Asfiya_Art_Shop">
+    <RootStyle title="Components: Tooltip | Animatrix Store">
       <Box
         sx={{
           pt: 6,

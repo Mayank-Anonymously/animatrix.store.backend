@@ -119,7 +119,7 @@ export default function Kanban() {
   };
 
   return (
-    <Page title="Kanban | Asfiya_Art_Shop" sx={{ height: "100%" }}>
+    <Page title="Kanban | Animatrix Store" sx={{ height: "100%" }}>
       <Container maxWidth={false} sx={{ height: "100%" }}>
         <HeaderBreadcrumbs
           heading="Kanban"

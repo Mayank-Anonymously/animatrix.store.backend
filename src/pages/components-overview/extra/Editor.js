@@ -36,7 +36,7 @@ export default function Editor() {
   const [draftSimple, setDraftSimple] = useState(EditorState.createEmpty());
 
   return (
-    <RootStyle title="Components: Editor | Asfiya_Art_Shop">
+    <RootStyle title="Components: Editor | Animatrix Store">
       <Box
         sx={{
           pt: 6,

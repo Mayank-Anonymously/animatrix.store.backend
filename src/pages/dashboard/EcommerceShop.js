@@ -145,7 +145,7 @@ export default function EcommerceShop() {
   };
 
   return (
-    <Page title="Ecommerce: Shop | Asfiya_Art_Shop">
+    <Page title="Ecommerce: Shop | Animatrix Store">
       {values && (
         <Backdrop open={isSubmitting} sx={{ zIndex: 9999 }}>
           <CircularProgress />
