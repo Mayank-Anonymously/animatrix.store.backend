@@ -151,6 +151,7 @@ export default function ArtProductNewForm({ isEdit, currentProduct }) {
     GetAllCategory({ setCategory });
   }, []);
 
+  console.log(values);
   return (
     <FormikProvider value={formik}>
       <Form noValidate autoComplete="off" onSubmit={handleSubmit}>
