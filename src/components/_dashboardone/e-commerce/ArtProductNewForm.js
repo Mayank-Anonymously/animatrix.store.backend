@@ -44,21 +44,7 @@ import { useState } from "react";
 
 const GENDER_OPTION = ["Men", "Women", "Kids"];
 
-const TAGS_OPTION = [
-  "Toy Story 3",
-  "Logan",
-  "Full Metal Jacket",
-  "Dangal",
-  "The Sting",
-  "2001: A Space Odyssey",
-  "Singin' in the Rain",
-  "Toy Story",
-  "Bicycle Thieves",
-  "The Kid",
-  "Inglourious Basterds",
-  "Snatch",
-  "3 Idiots",
-];
+const TAGS_OPTION = ["S", "M", "L", "XL"];
 
 const LabelStyle = styled(Typography)(({ theme }) => ({
   ...theme.typography.subtitle2,
@@ -77,6 +63,12 @@ export default function ArtProductNewForm({ isEdit, currentProduct }) {
   const navigate = useNavigate();
   const { enqueueSnackbar } = useSnackbar();
   const [category, setCategory] = useState([]);
+  const [size, setSize] = useState([
+    {
+      quantity: 1,
+      sizeName: "",
+    },
+  ]);
   const NewProductSchema = Yup.object().shape({
     name: Yup.string().required("Name is required"),
     description: Yup.string().required("Description is required"),
@@ -99,6 +91,7 @@ export default function ArtProductNewForm({ isEdit, currentProduct }) {
       categoryId: 0,
       quantity: "",
       stockQuantity: "",
+      size: [],
     },
     validationSchema: NewProductSchema,
     onSubmit: async (values, { setSubmitting, resetForm, setErrors }) => {
@@ -151,7 +144,13 @@ export default function ArtProductNewForm({ isEdit, currentProduct }) {
     GetAllCategory({ setCategory });
   }, []);
 
-  console.log(values);
+  const handleChange = (e, index) => {
+    const { name, value } = e.target;
+    const list = [...size];
+    list[index][name] = value;
+    setSize(list);
+  };
+
   return (
     <FormikProvider value={formik}>
       <Form noValidate autoComplete="off" onSubmit={handleSubmit}>
@@ -220,6 +219,38 @@ export default function ArtProductNewForm({ isEdit, currentProduct }) {
                 />
 
                 <Stack spacing={3}>
+                  {size.map((item, index) => {
+                    return (
+                      <>
+                        <TextField
+                          fullWidth
+                          label="Size Quantity"
+                          value={item.quantity}
+                          onChange={(e) => handleChange(e, index)}
+                        />
+                        <FormControl fullWidth>
+                          <InputLabel id="demo-simple-select-label">
+                            Size
+                          </InputLabel>
+                          <Select
+                            labelId="demo-simple-select-label"
+                            id="demo-simple-select"
+                            // value={values.categoryName}
+                            label="Size & Quantity"
+                            value={item.sizeName}
+                          >
+                            {TAGS_OPTION.map((item, index) => {
+                              return (
+                                <MenuItem key={index} value={item}>
+                                  {item}
+                                </MenuItem>
+                              );
+                            })}
+                          </Select>
+                        </FormControl>
+                      </>
+                    );
+                  })}
                   <TextField
                     fullWidth
                     label="Product Code"
@@ -252,7 +283,6 @@ export default function ArtProductNewForm({ isEdit, currentProduct }) {
                       type: "number",
                     }}
                   />
-
                   <FormControl fullWidth>
                     <InputLabel id="demo-simple-select-label">
                       Category
