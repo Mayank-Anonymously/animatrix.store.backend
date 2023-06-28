@@ -17,7 +17,7 @@ export const AddProductAPI = (values) => {
   form.append("productCode", values.code);
   form.append("inStock", values.inStock);
   for (var i of values.images) {
-    form.append("image", i.path);
+    form.append("image", i);
   }
 
   form.append("quantity", values.quantity);
